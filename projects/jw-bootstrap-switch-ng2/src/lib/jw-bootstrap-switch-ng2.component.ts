@@ -43,7 +43,8 @@ const CUSTOM_INPUT: any = {
               --><input type="checkbox" [(ngModel)]="value" [readonly]="readonly" [disabled]="disabled"
                      (focus)="onFocus()" (blur)="onBlur()">
           </div>
-      </div>`
+      </div>`,
+    standalone: false
 })
 
 export class JwBootstrapSwitchNg2Component implements AfterViewInit, ControlValueAccessor, OnChanges {
